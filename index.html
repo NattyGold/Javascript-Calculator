@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Javascript Calculator developed by Natty Gold">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <!-- <div class="topNav">
+            <div class="menu">
+                --
+            </div>
+            <div class="history">
+                :
+            </div>
+        </div> -->
+        <h3>Javascript Calculator</h3>
+        <div class="screenDisplay">
+                <input type="text" class="inputField" value=""/>
+                <span class="result"></span>
+            </div>
+
+            <table class="btns">
+                <tr>
+                    <td><button  class="btn btn-clear btn-green"" >C</button></td>
+                    <td><button  class="btn" data-num="/">&divide;</button></td>
+                    <td><button  class="btn" data-num="*">&times;</button></td>
+                    <td><button  class="btn btn-edit btn-red">&LeftArrow;</button></td>
+                </tr>
+
+                <tr>
+                    <td><button  class="btn" data-num="7">7</button></td>
+                    <td><button  class="btn" data-num="8">8</button></td>
+                    <td><button  class="btn" data-num="9">9</button></td>
+                    <td><button  class="btn" data-num="-">-</button></td>
+                </tr>
+
+                <tr>
+                    <td><button  class="btn" data-num="4">4</button></td>
+                    <td><button  class="btn" data-num="5">5</button></td>
+                    <td><button  class="btn" data-num="6">6</button></td>
+                    <td><button  class="btn" data-num="+">+</button></td>
+                </tr>
+                
+                <tr>
+                    <td><button  class="btn" data-num="1">1</button></td>
+                    <td><button  class="btn" data-num="2">2</button></td>
+                    <td><button  class="btn" data-num="3">3</button></td>
+                    <td rowspan="2">
+                    <button type="button" class="btn btn-green btn-equal" id="equal">=</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><button  class="btn" data-num="%">%</button></td>
+                    <td><button  class="btn" data-num="0">0</button></td>
+                    <td><button  class="btn" data-num=".">.</button></td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+
+    <footer>
+        <h3>
+            <a href="https://github.com/nattygold" target="_blank">
+                Developed by <span>Natty Gold &hearts;</span>
+            </a>
+        </h3>
+            
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
